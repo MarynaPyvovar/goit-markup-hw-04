@@ -171,8 +171,50 @@ header {
 .benefits-list {
   display: flex;
 }
-.benefits-list .item {
-  max-width: 270px;
+
+.antenna::before {
+  content: '';
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-btn-p);
+  background-image: url(../images/studio/antenna\ 1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clock::before {
+  content: '';
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-btn-p);
+  background-image: url(../images/studio/clock\ 1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.diagram::before {
+  content: '';
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-btn-p);
+  background-image: url(../images/studio/diagram\ 1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.astronaut::before {
+  content: '';
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-btn-p);
+  background-image: url(../images/studio/astronaut\ 1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .benefits-list .item + .item {
   margin-left: 30px;
