@@ -287,6 +287,10 @@ header {
   margin-top: 0;
   margin-bottom: 20px;
 }
+
+.address {
+  margin-right: 70px;
+}
 .address-link {
   display: block;
   margin-top: 0;
@@ -310,6 +314,53 @@ header {
   color: var(--accent-color);
 }
 
+.join {
+  padding-top: 12px;
+}
+.join-title {
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.join .link {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-position: center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+.join .link:nth-last-child(1) {
+  margin-right: 0;
+}
+.join .link:hover,
+.join .link:focus {
+  background-color: var(--accent-color);
+}
+.insta {
+  background-image: url(../images/studio/instagram\ 2.svg);
+}
+.twi {
+  background-image: url(../images/studio/twitter\ 1.svg);
+}
+.fb {
+  background-image: url(../images/studio/facebook\ 1.svg);
+}
+.in {
+  background-image: url(../images/studio/linkedin\ 1.svg);
+}
+
+.footer-flex {
+  display: flex;
+}
 /* =====portfolio===== */
 
 .visually-hidden {
