@@ -273,6 +273,12 @@ header {
   letter-spacing: 0.03em;
 }
 
+/* =====постоянные клиенты====== */
+.clients {
+  display: flex;
+  outline: 1px solid tomato;
+}
+
 /* =====footer===== */
 .footer {
   padding-top: 60px;
