@@ -90,6 +90,7 @@ header {
 }
 .contacts {
   display: flex;
+  align-items: center;
   margin-left: auto;
 }
 .contacts .item + .item {
@@ -97,7 +98,6 @@ header {
 }
 .contacts .link {
   color: var(--phrase-color);
-
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -106,7 +106,26 @@ header {
 .contacts .link:focus {
   color: var(--accent-color);
 }
-
+.mail {
+  display: flex;
+  align-items: center;
+}
+.mail-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.tel {
+  display: flex;
+  align-items: center;
+}
+.tel-icon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
 /* =====hero===== */
 .hero {
   max-width: 1600px;
