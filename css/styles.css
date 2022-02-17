@@ -310,6 +310,7 @@ header {
 .clients .client-icon:hover,
 .clients .client-icon:focus {
   fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 /* =====footer===== */
 .footer {
