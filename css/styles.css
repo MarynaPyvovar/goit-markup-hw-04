@@ -296,7 +296,16 @@ header {
   display: flex;
   outline: 1px solid tomato;
 }
-
+.clients .client-icon {
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  fill: #afb1b8;
+}
+.clients .client-icon:hover,
+.clients .client-icon:focus {
+  fill: var(--accent-color);
+}
 /* =====footer===== */
 .footer {
   padding-top: 60px;
