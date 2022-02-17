@@ -111,8 +111,6 @@ header {
   align-items: center;
 }
 .mail-icon {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -121,8 +119,6 @@ header {
   align-items: center;
 }
 .tel-icon {
-  width: 10px;
-  height: 16px;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -190,32 +186,17 @@ header {
 .benefits-list {
   display: flex;
 }
-.benefits-list .item::before {
-  content: '';
+.benefit-icon {
   display: block;
   width: 270px;
   height: 120px;
+  padding: 25px 100px;
   margin-bottom: 30px;
   background-color: var(--background-btn-p);
   background-position: center;
   background-repeat: no-repeat;
 }
-.antenna::before {
-  content: '';
-  background-image: url(../images/studio/antenna\ 1.svg);
-}
-.clock::before {
-  content: '';
-  background-image: url(../images/studio/clock\ 1.svg);
-}
-.diagram::before {
-  content: '';
-  background-image: url(../images/studio/diagram\ 1.svg);
-}
-.astronaut::before {
-  content: '';
-  background-image: url(../images/studio/astronaut\ 1.svg);
-}
+
 .benefits-list .item + .item {
   margin-left: 30px;
 }
@@ -369,18 +350,6 @@ header {
 .join .link:hover,
 .join .link:focus {
   background-color: var(--accent-color);
-}
-.insta {
-  background-image: url(../images/studio/instagram\ 2.svg);
-}
-.twi {
-  background-image: url(../images/studio/twitter\ 1.svg);
-}
-.fb {
-  background-image: url(../images/studio/facebook\ 1.svg);
-}
-.in {
-  background-image: url(../images/studio/linkedin\ 1.svg);
 }
 
 .footer-flex {
