@@ -294,12 +294,14 @@ header {
 /* =====постоянные клиенты====== */
 .clients {
   display: flex;
-  outline: 1px solid tomato;
+  justify-content: space-between;
 }
 .clients .client-icon {
   width: 170px;
   height: 92px;
   padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   fill: #afb1b8;
 }
 .clients .client-icon:hover,
