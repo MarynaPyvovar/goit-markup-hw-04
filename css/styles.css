@@ -187,8 +187,7 @@ header {
 .benefits-list {
   display: flex;
 }
-.benefit-icon {
-  display: block;
+.benefit-icons {
   width: 270px;
   height: 120px;
   padding: 25px 100px;
